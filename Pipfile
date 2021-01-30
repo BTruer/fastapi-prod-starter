@@ -12,11 +12,13 @@ flake8-docstrings = "*"
 pre-commit = "*"
 pytest = "*"
 mypy = "*"
+uvicorn = "*"
 
 [packages]
+fastapi = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.6"
 
 [pipenv]
 allow_prereleases = true
